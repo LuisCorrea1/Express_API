@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LuisCorrea1/Express_API/issues"
   },
-  "homepage": "https://github.com/LuisCorrea1/Express_API#readme"
+  "homepage": "https://github.com/LuisCorrea1/Express_API#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
