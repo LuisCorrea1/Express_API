@@ -30,3 +30,12 @@ app.get('/v1/explorers/:id', (req, res) => {
     const explorer = {id: 1, name: "Luis"}
     res.status(200).json(explorer)
 })
+
+//POST - create a new model 
+app.post('/v1/explorers/', (req, res) => {
+    console.log(`API explorers POST request ${new Date()}`)
+    const requestBody = req.body //Client parameters (request)
+    res.status(201).json({message: "Created"})
+})
+
+//Successful operation = status 200
